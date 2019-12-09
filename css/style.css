@@ -34,14 +34,14 @@ navbar a:hover {
     background: gray;
     background-blend-mode: overlay;
 }
-ul {
+navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     position: right bottom;
     
 }
-li {
+navbar li {
     float: left;
     padding: 0 10px;
     font-size: 20px;
@@ -61,4 +61,12 @@ main {
 
 .catfia-header-logo {
     width: 100px;
+}
+
+#members-list {
+    list-style-type: none;
+}
+
+#members-list li{
+    font-size: 35px;
 }
